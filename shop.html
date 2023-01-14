@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Single E-commerce Product Page using HTML, CSS - Codingscape</title>
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="shop.css">
+    <!---Boxicons CDN Setup for icons-->
+    <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
+</head>
+
+<body>
+    <div class="container">
+        <div class="single-product">
+            <div class="row">
+                <div class="col-6">
+                    <div class="product-image">
+                        <div class="product-image-main">
+                            <img src="img/soccerjersey.png" alt="" id="product-main-image">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-6">
+                    <div class="breadcrumb">
+                        <span><a href="index.html">Home</a></span>
+                        <span class="active">Jersey</span>
+                    </div>
+
+                    <div class="product">
+                        <div class="product-title">
+                            <h2>Black and white striped soccer jersey</h2>
+                        </div>
+                        <div class="product-rating">
+                            <span><i class="bx bxs-star"></i></span>
+                            <span><i class="bx bxs-star"></i></span>
+                            <span><i class="bx bxs-star"></i></span>
+                            <span><i class="bx bxs-star"></i></span>
+                            <span><i class="bx bxs-star"></i></span>
+                            <span class="review">(47 Review)</span>
+                        </div>
+                        <div class="product-price">
+                            <span class="offer-price">$99.00</span>
+                            <span class="sale-price">$129.00</span>
+                        </div>
+                        <div class="product-size">
+                            <h4>Size</h4>
+                            <div class="size-layout">
+                                <button for="1" class="size"><a href="#button">S</a></button>
+                                <button for="2" class="size">M</button>
+                                <button for="3" class="size">L</button>
+                                <button for="4" class="size">XL</button>
+
+                                <button for="5" class="size">XXL</button>
+                            </div>
+                        </div>
+                        <span class="divider"></span>
+
+                        <div class="product-btn-group">
+                            <div class="button buy-now"><button class='bx bxs-zap'><a href="checkout.html"> Buy Now</a> </button></div>
+                            <div class="button add-cart"><button class='bx bxs-cart'>Add to Cart</button></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--script-->
+    <script src="jsshop.js"></script>
+ </body>
+
+</html>
