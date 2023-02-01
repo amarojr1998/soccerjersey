@@ -37,33 +37,33 @@ function checkInputs() {
 
 
     if (addressValue === "") {
-        setErrorFor(address, "Password cannot be empty");
+        setErrorFor(address, "Address cannot be empty");
     } else {
         setSuccessFor(address);
     }
 
 
     if (cardnameValue === "") {
-        setErrorFor(cardname, "Password cannot be empty");
+        setErrorFor(cardname, " Card name cannot be empty");
     } else {
         setSuccessFor(cardname);
     }
     
     
     if (cardnumberValue === "") {
-        setErrorFor(cardnumber, "Password cannot be empty");
+        setErrorFor(cardnumber, "Card Number cannot be empty");
     } else {
         setSuccessFor(cardnumber);
     }
 
     if (expyearValue === "") {
-        setErrorFor(expyear, "Password cannot be empty");
+        setErrorFor(expyear, "Expiration date cannot be empty");
     } else {
         setSuccessFor(expyear);
     }
 
     if (cardverificationValue === "") {
-        setErrorFor(cardverification, "Password cannot be empty");
+        setErrorFor(cardverification, "Card verification cannot be empty");
     } else {
         setSuccessFor(cardverification);
     }
