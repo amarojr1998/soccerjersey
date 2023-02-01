@@ -3,9 +3,9 @@ var images = [];	// Images Array
 var time = 3000;	// Time Between Switch
 	 
 // Image List
-images[0] = '../img/kickingball.jpg';
-images[1] = '../img/players.jpg';
-images[2] = '../img/goalkeeper.jpg';
+images[0] = 'img/kickingball.jpg';
+images[1] = 'img/players.jpg';
+images[2] = 'img/goalkeeper.jpg';
 
 // Change Image
 function changeImg(){
